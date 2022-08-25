@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHandicapCalc.CLI", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHandicapCalc.Lib", "CourseHandicapCalc.Lib\CourseHandicapCalc.Lib.csproj", "{08F8771B-138C-4C03-AA99-3D1521CB1906}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseHandicapCalc.Test", "CourseHandicapCalc.Test\CourseHandicapCalc.Test.csproj", "{B127208C-325F-49E0-98B3-1D2A937ECEDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{08F8771B-138C-4C03-AA99-3D1521CB1906}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08F8771B-138C-4C03-AA99-3D1521CB1906}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08F8771B-138C-4C03-AA99-3D1521CB1906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B127208C-325F-49E0-98B3-1D2A937ECEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B127208C-325F-49E0-98B3-1D2A937ECEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B127208C-325F-49E0-98B3-1D2A937ECEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B127208C-325F-49E0-98B3-1D2A937ECEDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

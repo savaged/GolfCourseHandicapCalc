@@ -1,3 +1,8 @@
-﻿using CourseHandicapCalc.Lib;
+﻿using CourseHandicapCalc.CLI;
+using CourseHandicapCalc.Lib;
 
-Console.WriteLine(CalcService.Calculate(args[0], args[1], args[2], args[3]));
+Console.WriteLine(CalcService.Calculate(
+    ArgsConverter.ToDouble(args[0]), 
+    ArgsConverter.ToDouble(args[1]),
+    ArgsConverter.ToInt(args[2]),
+    ArgsConverter.ToInt(args[3])));
