@@ -10,5 +10,5 @@ Calculator for working out your playing handicap for a golf course
 
 `par <- 68`
 
-`individualHandicapIndex * (slopeRating / 113) + (courseRating - par)`
+`round(individualHandicapIndex * (slopeRating / 113) + (courseRating - par))`
 
